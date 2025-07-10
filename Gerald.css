@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    padding:0 10px;
+}
+
+nav{
+    min-width: 90%;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+ul, a{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+a:hover{
+    color: #558C03;
+    transform: translateY(-5px);
+}
+h1{
+    text-align: center;
+}
+
+h3{
+    font-size:25px;
+    color: #FF0033;
+}
+.BUTTON{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.INTRODUCTION{
+    min-width: 100%;
+    min-height:400px ;
+    margin-top: auto;
+    border-radius: 5px;
+    position: center;
+    background-image: url(Heading.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 28px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.INTRODUCTION h1{
+    font-size: 40px;
+}
+.INTO{
+    min-width: 100%;
+    max-height: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: rgba(211, 211, 211, 0.185);
+    margin: auto;
+    margin-bottom: 40px;
+}
+.All-INFO{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 10px;
+    padding: 15px 50px;
+}
+.ALL-INFO-1{
+    max-width: 300px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.All-INFO h2{
+    color: #FF0033;
+}
+.What-do{
+    text-align: center;
+}
+.WE-Do{
+    font-size: 25px;
+    color: #1E90FF;
+}
+.M-AIN{
+    min-width: 100%;
+    max-height: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: auto; 
+}
+
+.Living{
+    margin: auto;
+}
+.WHO-you{
+    color: #000;
+}
+
+
+.ALL-INFO-2{
+    max-width: 300px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 5px rgba(211, 211, 211, 0.185);
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+
+
+.INFORMATION{
+    min-width: 100%;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+}
+.Name{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.direction{
+    width: 200px;
+    margin-left: 15px;
+}
+span{
+    color: #1E90FF;
+}
+.Services{
+    line-height: 30px;
+    margin-left: 80px;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   padding: 10px 8px;
+}
+.booking{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.Location, .Price{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.Locate{
+    padding: 8px 15px;
+    background-color: #1E90FF;
+    border: none;
+    color: white;
+    margin-left: 50px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.Locate:hover{
+    background-color: #0000FF;
+    color: white;
+    transform: translateY(-5px);
+}
+@media(max-width: 400px){
+    .INTRODUCTION h1{
+        font-size: 20px;
+    }
+    nav{
+        display: none;
+    }
+}
